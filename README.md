@@ -1,5 +1,5 @@
 Hey there✋,
-This is the project I did for learning some intermediate to advance SpringBoot concepts.
+This is the project I did for learning some intermediate to advance **SpringBoot** concepts.
 
 **Hospital Management System**
 
