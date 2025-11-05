@@ -1,5 +1,6 @@
 package com.example.hospitalManagement;
 
+import com.example.hospitalManagement.dto.AppointmentResponseDto;
 import com.example.hospitalManagement.entity.Appointment;
 import com.example.hospitalManagement.entity.Insurence;
 import com.example.hospitalManagement.entity.Patient;
@@ -40,7 +41,7 @@ public class InsuranceTest {
                 .appointmentTime(LocalDateTime.of(2025, 11,1,12,00))
                 .reason("general checkup")
                 .build();
-        var newAppointment= appointmentService.createNewAppointment(appointment, 1L, 2L);
-        System.out.println(newAppointment);
+//        var newAppointment= appointmentService.createNewAppointment(appointment);
+//        System.out.println(newAppointment);
     }
 }
