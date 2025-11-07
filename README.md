@@ -10,8 +10,7 @@ Concepts I learned:
 - JPA
 - Mapping in JPA
 - ORM
-- JPA query methods
-- JPQL and Native queries
-- Pagination
-- Cascading
-- N+1 Queries problem
+- JPA query methods, JPQL and Native queries
+- Spring Security,  Authentication, Autherization, OAuth2
+  
+  
