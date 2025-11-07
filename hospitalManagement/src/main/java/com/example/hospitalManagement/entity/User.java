@@ -1,5 +1,6 @@
 package com.example.hospitalManagement.entity;
 
+import com.example.hospitalManagement.entity.type.AuthProviderType;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchConnectionDetails;
@@ -25,6 +26,11 @@ public class User implements UserDetails {
     private String username;
 
     private String password;
+
+    private String providerId;
+
+    @Enumerated(EnumType.STRING)
+    private AuthProviderType providerType;
 
 
     @Override

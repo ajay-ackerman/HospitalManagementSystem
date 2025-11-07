@@ -1,12 +1,10 @@
 package com.example.hospitalManagement.dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
-@Getter
-@Setter
-@Builder
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class LoginRequestDto {
     private String username;
     private String password;
